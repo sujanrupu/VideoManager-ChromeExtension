@@ -1,4 +1,4 @@
-# Vidoo
+# Video Manager
 
 Browser Extension
 
