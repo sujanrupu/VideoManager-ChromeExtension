@@ -1,0 +1,158 @@
+.video-panel {
+    position: absolute !important;
+    z-index: 2147483647 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    direction: ltr !important;
+}
+
+.video-panel * {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    height: auto !important;
+    min-width: auto !important;
+    min-height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    display: block !important;
+    color: #310564 !important;
+    font-family: Tahoma, Geneva, Verdana, sans-serif !important;
+    direction: ltr !important;
+    text-align: left !important;
+    font-size: 12px !important;
+    line-height: 1 !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: all !important;
+    appearance: auto !important;
+    -moz-appearance: auto !important;
+    -webkit-appearance: auto !important;
+    background-color: rgb(182, 204, 221) !important;
+}
+
+.video-panel button,
+.video-panel a {
+    cursor: pointer !important;
+    text-align: center !important;
+}
+
+.video-button {
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 50% !important;
+    background: #d1a2a8 !important;
+    line-height: 1 !important;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.video-button:hover {
+    background: #b3afbd !important;
+}
+.video-button:focus {
+    outline: none !important;
+}
+.video-button img {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    display: inline-block !important;
+}
+
+.video-dropdown {
+    width: 250px !important;
+    background: rgb(182, 204, 221) !important;
+    display: none !important;
+    padding: 7.5px !important;
+    border-radius: 7.5px !important;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px !important;
+    overflow-x: hidden !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 39.5px !important;
+}
+.video-panel-audio .video-dropdown {
+    top: auto !important;
+    bottom: 0 !important;
+}
+.video-dropdown.video-dropdown-show {
+    display: block !important;
+}
+.video-dropdown button,
+.video-dropdown a {
+    padding: 7.5px !important;
+    color: #e9e3e3 !important;
+    background: #2230ee !important;
+    border-radius: 7.5px !important;
+    margin-bottom: 7.5px !important;
+}
+.video-dropdown button:hover,
+.video-dropdown a:hover {
+    background: #80091c !important;
+}
+.video-dpc {
+    scrollbar-width: thin !important;
+    scrollbar-color: #580404 #290101 !important;
+    overflow-y: auto !important;
+    padding-right: 7.5px !important;
+    max-height: 220px !important;
+}
+.video-dpc::-webkit-scrollbar {
+    width: 7px !important;
+}
+.video-dpc::-webkit-scrollbar-track {
+    background: #6d6988 !important;
+}
+.video-dpc::-webkit-scrollbar-thumb {
+    background-color: #050777 !important;
+    border-radius: 0 !important;
+    border: 0px solid #f1f1f1 !important;
+}
+
+.video-field {
+    display: grid !important;
+    grid-column-gap: 7.5px !important;
+    grid-template-areas:
+        "l l l l"
+        "r r r n";
+}
+.video-label {
+    grid-area: l;
+    text-transform: capitalize !important;
+    font-weight: bold !important;
+}
+.video-number {
+    grid-area: n;
+    border: 2px solid #470707 !important;
+    border-radius: 45px !important;
+    padding: 6px !important;
+}
+.video-range {
+    grid-area: r;
+    color: #6e0909 !important;
+}
+
+.video-checkbox {
+    margin-top: 15px !important;
+}
+.video-panel input[type="checkbox"] {
+    width: auto !important;
+    display: inline !important;
+    margin-right: 7.5px !important;
+}
+.video-checkbox label {
+    width: auto !important;
+    display: inline !important;
+    font-weight: bold !important;
+}
+
+/* .video-filed{
+    background-color: #240449;
+    color: #490202;
+} */

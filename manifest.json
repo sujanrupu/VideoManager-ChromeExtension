@@ -1,0 +1,43 @@
+{
+    "manifest_version": 3,
+    "name": "Video",
+    "description": "Change the speed of medias, adjust video filters",
+    "version": "1.0.5",
+    "icons": {
+        "128": "icons/video.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.aparat.com/*",
+                "*://*.youtube.com/*"
+            ],
+            "js": [
+                "scripts/adskip.js"
+            ],
+            "all_frames": true
+        },
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "scripts/control.js"
+            ],
+            "css": [
+                "scripts/style.css"
+            ],
+            "all_frames": true
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "icons/video.png"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}
